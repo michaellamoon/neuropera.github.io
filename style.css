@@ -66,57 +66,80 @@ img{
 
 
 .countercontainer {
-  color: #6f6b82;
-  font-family: brandon-grotesque, sans-serif;
-  font-weight: 500;
+    color: #6f6b82;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 500;
 
-  background-color:#a09bbb;
-  width:100%;
-  height:5vw;
+    background-color:#a09bbb;
+    width:100%;
+    height:9vw;
 
-  margin-top: 0;
-  margin-left: 0;
-}
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 
   .times{
-    font-size: 1vw; text-align: center;
+    font-size: 1vw; 
+    margin-top: -2vw;
+    text-align: center;
   }
 
-.zoomlabel {
-  font-size: 2vw;
-  text-transform: uppercase;
-  text-align: left;
-
-  margin-top: -0.2vw;
-  margin-left: 1vw;
-  padding-bottom: 0;
-  position: fixed;
-}
-
-.countLink{
-  font-family: brandon-grotesque, sans-serif;
-
-  margin-top: 0vw;
-  margin-left: 50vw;
-  position: fixed;
-}
-  li {
-    display: inline-block;
-    font-size: 1vw;
-    list-style-type: none;
-    text-transform: uppercase;
-
-    margin-left: 2vw; /*spacing btn counters*/
-  }
-
-  li span {
+  .zoomlabel {
     font-size: 2vw;
+    text-transform: uppercase;
+    text-align: left;
+
+    margin-top: -0.2vw;
+    margin-left: 1vw;
+    padding-bottom: 0;
+    position: fixed;
   }
+
+  .countLink{
+    font-family: brandon-grotesque, sans-serif;
+
+    margin-top: 0vw;
+    margin-left: 50vw;
+    position: fixed;
+  }
+  
+
+
+
+
+
+    .clockdiv {
+      font-family: brandon-grotesque, sans-serif;
+      color: #fff;
+      display: block;
+      font-weight: 100;
+      text-align: center;
+      font-size: 1vw;
+      display: flex;
+       margin-top: 2vw;
+
+    }
+    
+    .clockdiv > div {
+      padding: 0.3vw;
+      background: #00BF96;
+      margin: 0.8vw;
+    }
+    
+    .clockdiv div > span {
+      font-size: 1.5vw;
+      
+    }
+    
+    .smalltext {
+      margin-top: 1vw;
+      font-size: 0.8vw;
+    }
 
   /*---------------persons--------------------*/
   .intro-box {
