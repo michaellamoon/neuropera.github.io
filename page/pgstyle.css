@@ -130,7 +130,7 @@
 
     background-color:#a09bbb;
     width:100%;
-    height:3vw;
+    height:5vw;
 
     margin-top: 0;
     margin-left: 0;
@@ -139,6 +139,10 @@
     position: fixed;
     top: 0;
     width: 100%;
+  }
+
+.times{
+    font-size: 1vw; text-align: center;
   }
 
   .zoomlabel {
