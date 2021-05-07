@@ -108,7 +108,10 @@ img{
     position: fixed;
   }
   
-
+a:link {
+  color:  #6F6B82;
+}
+  
 
 
 
